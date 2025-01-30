@@ -51,5 +51,7 @@ El scraper extrae la siguiente información de cada oferta de empleo:
 
 ## 📌 Notas importantes
 ⚠️ Este scraper **no utiliza la API** oficial de LinkedIn y puede verse afectado si LinkedIn cambia su estructura HTML.
+
 ⚠️ **Evita hacer demasiadas solicitudes en poco tiempo** para no ser bloqueado. Se recomienda agregar pausas (time.sleep()) entre peticiones.
+
 ⚠️ Algunas ofertas pueden no incluir toda la información, por lo que es normal encontrar valores No especificado en ciertos campos.
